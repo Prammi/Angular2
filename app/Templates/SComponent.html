@@ -1,15 +1,7 @@
 Click <span style="text-decoration:underline" (click)="navigateFn()" >Here </span> to navigate to About Page.
 
-<!--<div *ngFor="let item of _postArray">
-    <ul>    
-   
-    <li>  {{item.Object.body}} </li>
-    </ul>
-</div>-->
-
-
-  <ul>
-                <li  *ngFor="let cont of _postArray" >
-                    {{cont.firstName}}  {{cont.lastName}}
-                </li>   
-            </ul> 
+<ul>
+    <li *ngFor="let cont of _postArray">
+        {{cont.firstName}} {{cont.lastName}}
+    </li>
+</ul>
